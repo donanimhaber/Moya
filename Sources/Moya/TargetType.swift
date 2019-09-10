@@ -25,10 +25,10 @@ public protocol TargetType {
     var headers: [String: String]? { get }
 }
 
-public extension TargetType {
-
-    /// The type of validation to perform on the request. Default is `.none`.
-    var validationType: ValidationType {
-        return .none
-    }
-}
+//public extension TargetType {
+//
+//    /// The type of validation to perform on the request. Default is `.none`.
+//    var validationType: ValidationType {
+//        return .none
+//    }
+//}
